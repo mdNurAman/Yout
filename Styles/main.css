@@ -1,0 +1,51 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    z-index:0;
+}
+
+.main-container img{
+    width: 100%;
+}
+.thumbnail{
+    position: relative;
+}
+.duration{
+    font-size: 12px;
+    color: rgb(248, 245, 245);
+    background-color: black;
+    display: inline-block;
+    padding:3px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+.video-info-container{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 10px;
+    align-items:start;
+}
+.video-info-container img{
+    border-radius: 50%;
+}
+.title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom:10px;
+}
+
+.channel-name{
+    font-size: 12px;
+    color: rgb(81, 80, 80);
+    margin-bottom:4px;
+}
+.video-stats{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(81, 80, 80);
+}

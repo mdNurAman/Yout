@@ -2,4 +2,14 @@ body{
     margin: 0;
     padding: 0;
     font-family:Roboto,Arial;
+    background-color: rgb(246, 245, 245);
+    padding-top: 96px;
+    padding-left: 96px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+
+}
+p{
+    padding: 0;
+    margin: 0;
 }

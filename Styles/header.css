@@ -8,6 +8,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 16px 25px;
+  background-color: white;
+  z-index:50;
 }
 header img {
   height: 24px;
@@ -39,9 +41,9 @@ header img {
   width: 0;
   min-width: 0;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  padding-left: 10px;
 }
 .search-box::placeholder {
-  padding: 10px;
   font-size: 14px;
   font-weight: 500;
 }
@@ -85,4 +87,7 @@ header img {
 
 .profile-pic{
     height: 34px;
+}
+header img:hover{
+  cursor: pointer;
 }
