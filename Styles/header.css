@@ -1,0 +1,88 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+}
+header img {
+  height: 24px;
+}
+.header-left {
+  display: flex;
+}
+.yt-logo {
+  margin-left: 20px;
+}
+
+.header-middle {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 470px;
+  margin-left: 40px;
+}
+.search-box {
+  border: 1px solid rgb(201, 201, 201);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  flex: 1;
+  width: 0;
+  min-width: 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+.search-box::placeholder {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-icon {
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(201, 201, 201);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 9px 20px;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.mic-icon {
+  background-color: rgb(244, 244, 244);
+  padding: 9px;
+  margin-left: -1px;
+  border-radius: 50%;
+}
+.header-right {
+  width: 182px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.notification-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.notification-count{
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    top:-4px;
+    right:-6px;
+    background-color: rgb(209, 5, 5);
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.profile-pic{
+    height: 34px;
+}
